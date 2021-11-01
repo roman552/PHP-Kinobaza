@@ -93,7 +93,7 @@ class Main extends MY_Controller {
                 $this->session->set_flashdata(
                     'msg', '<div class="alert alert-success text-center">Ваше сообщение успешно отправлено!</div>'
                 );
-                redirect('/contact')''
+                redirect('/contact');
             }
             else {
                 $this->session->set_flashdata(
